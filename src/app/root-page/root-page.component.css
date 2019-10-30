@@ -1,0 +1,43 @@
+
+
+.formsContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    margin-right: 9rem;
+}
+
+.forms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms .text{
+    border: 0px solid transparent;
+    border: 1px solid #BCAFAF;
+    padding: 0.9em;
+    width: 40%;
+}
+
+.forms label{
+    font-family: poppinsr;
+    margin: 0 2rem;
+}
+
+.submitContainer{
+    display: inline-flex;
+    margin: 1em 0;
+    padding: 1em;
+    width: 77%;
+    justify-content: flex-end;
+}
+
+.submitContainer input{
+    background: #000;
+    border: 0px solid transparent;
+    color: #fff;
+    padding: 10px;
+    width: 5rem;
+}

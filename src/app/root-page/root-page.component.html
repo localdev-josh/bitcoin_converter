@@ -1,0 +1,10 @@
+<form class="formsContainer">
+  <div class="forms">
+    <label>Full name: </label>
+    <input type="text" class="text" #guestName  [(ngModel)]="name" [ngModelOptions]="{standalone: true}"/>
+  </div>
+  <div class="submitContainer">
+    <input type="button" value="Next" (click)="add()"  />
+  </div>
+</form>
+<!-- (click)="add(guestName.value); guestName.value = ''" -->

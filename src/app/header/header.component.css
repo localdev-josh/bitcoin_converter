@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: poppinssb;
+}
+
+.items {
+  padding: 0.8rem;
+}
+
+.item1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.item2 {
+    font-family: poppinsr;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    letter-spacing: 3px !important;
+    color: rgb(27, 27, 27);
+}

@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "poppinsr";
+    src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "poppinssb";
+    src: url("fonts/Poppins-SemiBold.ttf")
+}
+
+body{
+    background: url("./assets/images/bitback.jpg");
+    background-size: cover;
+}

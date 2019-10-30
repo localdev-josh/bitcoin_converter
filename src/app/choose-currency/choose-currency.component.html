@@ -1,0 +1,14 @@
+<!-- <p>{{ names.id }} works!</p> -->
+<!-- <div *ngFor="let namo of names">
+    <p>{{namo.name}}</p>
+</div> -->
+<div class="currencyContainer">
+    <div class="items item1"  *ngFor='let name of names'>
+        Hey <strong>{{ name.name }}</strong> , select any currency(ies) to convert from today's Bitcoin value.
+    </div>
+    <div class="items item2">
+        <ul>
+            <li *ngFor="let currencies of currency">{{ currencies.name }}</li>
+        </ul>
+    </div>
+</div>

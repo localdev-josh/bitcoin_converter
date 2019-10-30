@@ -1,0 +1,37 @@
+ul{
+    text-align: left;
+    list-style: none;
+    background: #fff;
+}
+
+li{
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    background: #e8e8e9;
+}
+
+.currencyContainer{
+    display :flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.items{ 
+    flex-grow: 1;
+}
+
+.item1{
+    flex-grow: 1;
+    font-family: poppinsr;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    letter-spacing: 3px !important;
+}
+
+.item2{
+    flex-grow: 3;
+    overflow-y: scroll;
+    height: 25rem;
+}
